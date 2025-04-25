@@ -1,0 +1,56 @@
+.Hero{
+    position: relative;
+}
+.banner-img{
+    width: 100%;
+    mask-image: linear-gradient(to right, transparent, black 75%);
+    -weblit-mask-image: linear-gradient(to right, transparent, black 75%);
+}
+.Hero_caption{
+    position: absolute;
+    width: 100%;
+    padding-left: 6%;
+    bottom: 0;
+}
+.Hero_caption p{
+    max-width: 700px;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.Hero_buttons{
+    display: flex;
+    margin-bottom: 50px;
+    gap: 10px;
+}
+
+.Hero_buttons .btn img{
+    width: 25px;
+}
+
+.Hero_buttons .btn{
+    border: 0;
+    outline: 0;
+    padding: 8px 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    background: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.Hero_buttons .btn-dark{
+    color: #fff;
+    background:#6d6d6eb3 ;
+}
+
+.Hero_buttons .btn:hover{
+    background:#ffffffbf ;
+}
+.Hero_buttons .btn-dark:hover{
+    background: #6d6d6e66;
+}
+.more-cards{
+    padding-left: 6%;
+}

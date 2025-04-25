@@ -1,0 +1,77 @@
+.Navbar{
+    width: 100%;
+    padding: 20px 6%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    font-size: 14px;
+    color: #e5e5e5;
+    background-image: linear-gradient(1820deg, rgba(0,0,0,0.0.7) 10%,transparent);
+    z-index: 1;
+}
+
+.Navbar-Left{
+    display: flex;
+    align-items: center;
+    gap: 50Px;
+}
+
+.Navbar-Left img{
+    width: 90px;
+}
+
+.Navbar-Left ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.Navbar-Left ul li{
+    cursor: pointer;
+}
+
+.Navbar-Right{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.Navbar-Right .Icons{
+    width: 20px;
+    cursor: pointer;
+}
+
+.Navbar-Right .profile{
+    border-radius: 4px;
+    width: 35px;
+}
+
+.navbar-profile{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.navbar-profile .dropdown{
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: max-content;
+    background-color: #191919;
+    padding: 18PX 22px;
+    border-radius: 2px;
+    text-decoration: underline;
+    z-index: 1;
+    display: none;
+}
+
+.navbar-profile .dropdown P{
+    cursor: pointer ;
+    font-size: 13px;
+}
+
+.navbar-profile:hover .dropdown{
+    display: block;
+}

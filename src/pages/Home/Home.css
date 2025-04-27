@@ -12,8 +12,11 @@
     padding-left: 6%;
     bottom: 0;
 }
+.caption_img{
+    width: 30%;
+}
 .Hero_caption p{
-    max-width: 700px;
+    max-width: 650px;
     font-size: 17px;
     margin-bottom: 20px;
 }
@@ -53,4 +56,47 @@
 }
 .more-cards{
     padding-left: 6%;
+}
+
+@media (max-width:1024px) {
+    .Hero .title_cards{
+        display: none;
+    }
+    .Hero_buttons{
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:800px){
+    .Hero_caption{
+        padding-left: 4%;
+    }
+    .caption_img{
+        margin-bottom: 10px;
+        width: 40%;
+    }
+    .Hero_caption p{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .Hero_buttons .btn img{
+        width: 20px;
+    }
+    .more-cards{
+        padding-left: 4%;
+    }
+} 
+
+@media (max-width:500px) {
+    .caption_img{
+        display: none;
+    }
+    .Hero_buttons .btn img{
+        width: 15px;
+    }
+    .Hero_buttons .btn{
+        padding: 4px 10px;
+        gap: 5px;
+        font-size: 10px;
+    }
 }

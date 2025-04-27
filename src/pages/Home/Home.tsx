@@ -23,14 +23,16 @@ function Home(){
                <button className="btn"><img src={Play_icon} alt="" />Play</button>
                <button className="btn btn-dark"><img src={info_icon} alt="" />More Info</button>
             </div>
+            <div className="title_cards">
             <Title_cards />
+            </div>
             </div>
         </div>
         <div className="more-cards">
-        <Title_cards title={"BlockBlaster Movies"} />
-        <Title_cards title={"Only On Netflix"}/>
-        <Title_cards title={"Upcoming"}/>
-        <Title_cards title={"Top pics for you"}/>
+        <Title_cards title={"BlockBlaster Movies"} category={"popular"} />
+        <Title_cards title={"Only On Netflix"} category={"top_rated"}/>
+        <Title_cards title={"Upcoming"} category={"upcoming"}/>
+        <Title_cards title={"Top pics for you"} category={"now_playing"}/>
         </div>
         <Footer />
         </div>
